@@ -1,0 +1,58 @@
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+*{
+  margin: 0;
+  font-size: 20px;
+}
+/* Your app custom styles here */
+#dados{
+  height: 20vh ;
+  width: 50vw ;
+}
+.fuente{
+  font-size: 30px;
+}
+.jug{
+  width: 60vw;
+  height: 15vh;
+  font-size: 40px;
+  text-align: center;
+}
+.margen{
+  margin: 15px 0px;
+}
+.toolbar-inner{
+  justify-content: center;
+  font-size: 30px;
+  height: 50vh;
+}
+#ini{
+  font-size: 30px;
+}
+.pad{
+  padding: 5px 15px;
+  text-align: center;
+}
+.color{
+  border-radius: 8px;
+  background-color: rgba(12, 58, 95, 0.678);
+}
+
+.color2{
+  border-radius: 8px;
+  background-color: rgba(231, 179, 47, 0.904);
+}
+
+.fondo{
+  background-color: rgba(54, 54, 54, 0.815);
+}
+
+a{
+  color: rgb(231, 149, 41);
+  width: 30px;
+}
+.auto{
+  height: 100vh;
+}
