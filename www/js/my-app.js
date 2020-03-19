@@ -30,10 +30,18 @@ var ac1 = app.actions.create({
   buttons: [{
       text: 'Uno',
       bold: true,
+      onClick: function () {
+        app.dialog.alert('Button1 clicked');
+        tocar(1);
+      }
     },
     {
       text: 'Dos',
-      bold: true
+      bold: true,
+      onClick: function () {
+        app.dialog.alert('Button1 clicked');
+        tocar(2);
+      }
     },
     {
       text: 'Tres',
@@ -85,6 +93,10 @@ var j1 = "";
 var j2 = "";
 var a; //variable para numeros de los puntajes (ventana)
 
+var idTocado;
+
+
+
 // Handle Cordova Device Ready Event
 $$(document).on('deviceready', function () {
   console.log("Device is ready!");
@@ -112,6 +124,12 @@ $$(document).on('page:init', '.page[data-name="anotador"]', function (e) {
   $$('#nj1').text(j1);
   $$('#nj2').text(j2);
 
+  $$('.ac-1').on('click', function () {
+    idTocado = this.id;
+    ac1.open();
+  });
+
+/*
   $$('#j1_1').on('click', function () {
     ac1.open();
   });
@@ -130,6 +148,8 @@ $$(document).on('page:init', '.page[data-name="anotador"]', function (e) {
   $$('#j1_6').on('click', function () {
     ac1.open();
   });
+*/
+
   $$('#j1_7').on('click', function () {
     ac2.open();
   });
@@ -179,4 +199,15 @@ $$(document).on('page:init', '.page[data-name="anotador"]', function (e) {
     ac2.open();
   });
 
+
 })
+
+
+
+
+  function tocar(index){
+    iden = idTocado;
+    alert(iden + " / "+  index);
+    
+  }
+
