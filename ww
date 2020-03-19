@@ -1,0 +1,301 @@
+[33mcommit 29edf54ccdbe2faade3470d5bc126a9e91aa36f3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: francojesusre <francojesusre@gmail.com>
+Date:   Thu Mar 19 10:41:20 2020 -0300
+
+    segunda version
+
+[1mdiff --git a/a b/a[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c7a2953[m
+[1m--- /dev/null[m
+[1m+++ b/a[m
+[36m@@ -0,0 +1,288 @@[m
+[32m+[m[32m[33mcommit 15e44c3fd6e9819a6035bede38fa40fb7fccd302[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+[32m+[m[32mAuthor: francojesusre <francojesusre@gmail.com>[m
+[32m+[m[32mDate:   Wed Mar 18 13:34:01 2020 -0300[m
+[32m+[m
+[32m+[m[32m    version inicial[m
+[32m+[m
+[32m+[m[32m[1mdiff --git "a/d\357\200\233a" "b/d\357\200\233a"[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..62dd047[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ "b/d\357\200\233a"[m[m
+[32m+[m[32m[36m@@ -0,0 +1,295 @@[m[m
+[32m+[m[32m[32m+[m[32m[33mcommit fe118f90babc03b979dc7a6e8257570e7d72bb3d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m[m
+[32m+[m[32m[32m+[m[32mAuthor: francojesusre <francojesusre@gmail.com>[m[m
+[32m+[m[32m[32m+[m[32mDate:   Tue Mar 17 19:22:21 2020 -0300[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m    version inicial de anotador de generala[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/.gitignore b/.gitignore[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..35d5dc6[m[m[m
+[32m+[m[32m[32m+[m[32m[1m--- /dev/null[m[m[m
+[32m+[m[32m[32m+[m[32m[1m+++ b/.gitignore[m[m[m
+[32m+[m[32m[32m+[m[32m[36m@@ -0,0 +1,5 @@[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m/assets-src[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m/hooks[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m/node_modules[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m/platforms[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m/plugins[m[m[m
+[32m+[m[32m[32m+[m[32m\ No newline at end of file[m[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/README.md b/README.md[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..ae5925d[m[m[m
+[32m+[m[32m[32m+[m[32m[1m--- /dev/null[m[m[m
+[32m+[m[32m[32m+[m[32m[1m+++ b/README.md[m[m[m
+[32m+[m[32m[32m+[m[32m[36m@@ -0,0 +1,21 @@[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m# Framework 7 Template - Version 5.5.0[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m## Framework7[m[41m [m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32mFramework7 app created with following options:[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m```[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32mphonegap create MYAPP --template f7-v550[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32mOR[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32mcordova create MYAPP --template f7-v550[m[41m [m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m```[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m## Documentation & Resources[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m* [Framework7 Core Documentation](https://framework7.io/docs/)[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m* [Framework7 Icons Reference](https://framework7.io/icons/)[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m* [Community Forum](https://forum.framework7.io)[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/config.xml b/config.xml[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..6ee3cb6[m[m[m
+[32m+[m[32m[32m+[m[32m[1m--- /dev/null[m[m[m
+[32m+[m[32m[32m+[m[32m[1m+++ b/config.xml[m[m[m
+[32m+[m[32m[32m+[m[32m[36m@@ -0,0 +1,85 @@[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m<?xml version='1.0' encoding='utf-8'?>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <name>helloworld</name>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <description>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        A sample Apache Cordova application that responds to the deviceready event.[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    </description>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <author email="dev@cordova.apache.org" href="http://cordova.io">[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        Apache Cordova Team[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    </author>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <content src="index.html" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <plugin name="cordova-plugin-whitelist" spec="1" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <access origin="*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <allow-intent href="http://*/*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <allow-intent href="https://*/*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <allow-intent href="tel:*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <allow-intent href="sms:*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <allow-intent href="mailto:*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <allow-intent href="geo:*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <platform name="android">[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <allow-intent href="market:*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    </platform>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <platform name="ios">[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <allow-intent href="itms:*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <allow-intent href="itms-apps:*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    </platform>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <allow-navigation href="*" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <platform name="android">[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <preference name="StatusBarOverlaysWebView" value="false" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <preference name="android-minSdkVersion" value="21" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <preference name="SplashMaintainAspectRatio" value="true" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="land-hdpi" src="res/screen/android/drawable-hdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="land-mdpi" src="res/screen/android/drawable-mdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="land-xhdpi" src="res/screen/android/drawable-xhdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="land-xxhdpi" src="res/screen/android/drawable-xxhdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="land-xxxhdpi" src="res/screen/android/drawable-xxxhdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="port-hdpi" src="res/screen/android/drawable-hdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="port-mdpi" src="res/screen/android/drawable-mdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="port-xhdpi" src="res/screen/android/drawable-xhdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="port-xxhdpi" src="res/screen/android/drawable-xxhdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash density="port-xxxhdpi" src="res/screen/android/drawable-xxxhdpi/screen.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon density="ldpi" src="res/icon/android/mipmap-ldpi/ic_launcher.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon density="mdpi" src="res/icon/android/mipmap-mdpi/ic_launcher.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon density="hdpi" src="res/icon/android/mipmap-hdpi/ic_launcher.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon density="xhdpi" src="res/icon/android/mipmap-xhdpi/ic_launcher.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon density="xxhdpi" src="res/icon/android/mipmap-xxhdpi/ic_launcher.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon density="xxxhdpi" src="res/icon/android/mipmap-xxxhdpi/ic_launcher.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    </platform>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <platform name="ios">[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <config-file parent="CFBundleAllowMixedLocalizations" platform="ios" target="*-Info.plist">[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m            <true />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        </config-file>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <preference name="StatusBarOverlaysWebView" value="true" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <splash src="res/screen/ios/Default@2x~universal~anyany.png" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="180" src="res/icon/ios/icon-60x60@3x.png" width="180" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="60" src="res/icon/ios/icon-60x60@1x.png" width="60" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="120" src="res/icon/ios/icon-60x60@2x.png" width="120" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="76" src="res/icon/ios/icon-76x76@1x.png" width="76" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="152" src="res/icon/ios/icon-76x76@2x.png" width="152" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="228" src="res/icon/ios/icon-76x76@3x.png" width="228" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="40" src="res/icon/ios/icon-40x40@1x.png" width="40" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="80" src="res/icon/ios/icon-40x40@2x.png" width="80" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="87" src="res/icon/ios/icon-29x29@3x.png" width="87" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="57" src="res/icon/ios/icon-57x57@1x.png" width="57" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="114" src="res/icon/ios/icon-57x57@2x.png" width="114" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="72" src="res/icon/ios/icon-72x72@1x.png" width="72" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="144" src="res/icon/ios/icon-72x72@2x.png" width="144" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="167" src="res/icon/ios/icon-83.5x83.5@2x.png" width="167" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="29" src="res/icon/ios/icon-29x29@1x.png" width="29" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="58" src="res/icon/ios/icon-29x29@2x.png" width="58" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="50" src="res/icon/ios/icon-50x50@1x.png" width="50" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="100" src="res/icon/ios/icon-50x50@2x.png" width="100" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="167" src="res/icon/ios/icon-83.5x83.5@2x.png" width="167" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m        <icon height="1024" src="res/icon/ios/icon-512x512@2x.png" width="1024" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    </platform>[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="UIWebViewBounce" value="false" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="DisallowOverscroll" value="true" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="BackupWebStorage" value="local" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="AutoHideSplashScreen" value="false" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="ShowSplashScreenSpinner" value="false" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="SplashScreenDelay" value="0" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="Suppresses3DTouchGesture" value="true" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="Allow3DTouchLinkPreview" value="false" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    <preference name="AllowInlineMediaPlayback" value="true" />[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m</widget>[m[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/package-lock.json b/package-lock.json[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..dbead0f[m[m[m
+[32m+[m[32m[32m+[m[32m[1m--- /dev/null[m[m[m
+[32m+[m[32m[32m+[m[32m[1m+++ b/package-lock.json[m[m[m
+[32m+[m[32m[32m+[m[32m[36m@@ -0,0 +1,12 @@[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m{[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  "requires": true,[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  "lockfileVersion": 1,[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  "dependencies": {[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    "cordova-plugin-whitelist": {[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m      "version": "1.3.4",[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m      "resolved": "https://registry.npmjs.org/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.4.tgz",[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m      "integrity": "sha512-EYC5eQFVkoYXq39l7tYKE6lEjHJ04mvTmKXxGL7quHLdFPfJMNzru/UYpn92AOfpl3PQaZmou78C7EgmFOwFQQ==",[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m      "dev": true[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    }[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  }[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m}[m[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/package.json b/package.json[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..cd52479[m[m[m
+[32m+[m[32m[32m+[m[32m[1m--- /dev/null[m[m[m
+[32m+[m[32m[32m+[m[32m[1m+++ b/package.json[m[m[m
+[32m+[m[32m[32m+[m[32m[36m@@ -0,0 +1,11 @@[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m{[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  "devDependencies": {[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    "cordova-plugin-whitelist": "1"[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  },[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  "cordova": {[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    "plugins": {[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m      "cordova-plugin-whitelist": {}[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m    }[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  },[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m  "dependencies": {}[m[m[m
+[32m+[m[32m[32m+[m[32m[32m+[m[32m}[m[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/.pgbomit b/res/.pgbomit[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..e69de29[m[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/drawable-hdpi-icon.png b/res/icon/android/drawable-hdpi-icon.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..0b3e799[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/drawable-hdpi-icon.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/drawable-ldpi-icon.png b/res/icon/android/drawable-ldpi-icon.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..f4b1dfb[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/drawable-ldpi-icon.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/drawable-mdpi-icon.png b/res/icon/android/drawable-mdpi-icon.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..edc83f2[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/drawable-mdpi-icon.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/drawable-xhdpi-icon.png b/res/icon/android/drawable-xhdpi-icon.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..e4ae9ce[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/drawable-xhdpi-icon.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/drawable-xxhdpi-icon.png b/res/icon/android/drawable-xxhdpi-icon.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..e801412[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/drawable-xxhdpi-icon.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/drawable-xxxhdpi-icon.png b/res/icon/android/drawable-xxxhdpi-icon.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..0d848e6[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/drawable-xxxhdpi-icon.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/mipmap-hdpi/ic_launcher.png b/res/icon/android/mipmap-hdpi/ic_launcher.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..0b3e799[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/mipmap-hdpi/ic_launcher.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/mipmap-ldpi/ic_launcher.png b/res/icon/android/mipmap-ldpi/ic_launcher.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..f4b1dfb[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/mipmap-ldpi/ic_launcher.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/mipmap-mdpi/ic_launcher.png b/res/icon/android/mipmap-mdpi/ic_launcher.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..edc83f2[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/mipmap-mdpi/ic_launcher.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/mipmap-xhdpi/ic_launcher.png b/res/icon/android/mipmap-xhdpi/ic_launcher.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..e4ae9ce[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/mipmap-xhdpi/ic_launcher.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/mipmap-xxhdpi/ic_launcher.png b/res/icon/android/mipmap-xxhdpi/ic_launcher.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..e801412[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/mipmap-xxhdpi/ic_launcher.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/android/mipmap-xxxhdpi/ic_launcher.png b/res/icon/android/mipmap-xxxhdpi/ic_launcher.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..0d848e6[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/android/mipmap-xxxhdpi/ic_launcher.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-20x20@1x.png b/res/icon/ios/icon-20x20@1x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..5c9ac80[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-20x20@1x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-20x20@2x.png b/res/icon/ios/icon-20x20@2x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..ac0e92c[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-20x20@2x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-20x20@3x.png b/res/icon/ios/icon-20x20@3x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..bddd690[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-20x20@3x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-29x29@1x.png b/res/icon/ios/icon-29x29@1x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..641d500[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-29x29@1x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-29x29@2x.png b/res/icon/ios/icon-29x29@2x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..ffe007e[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-29x29@2x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-29x29@3x.png b/res/icon/ios/icon-29x29@3x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..057dfa1[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-29x29@3x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-40.png b/res/icon/ios/icon-40.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..ebac8cc[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-40.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-40@2x.png b/res/icon/ios/icon-40@2x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..32caacc[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-40@2x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-40x40@1x.png b/res/icon/ios/icon-40x40@1x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..ac0e92c[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-40x40@1x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-40x40@2x.png b/res/icon/ios/icon-40x40@2x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..731ad41[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-40x40@2x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-40x40@3x.png b/res/icon/ios/icon-40x40@3x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..e115546[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-40x40@3x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-50.png b/res/icon/ios/icon-50.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..fe41c07[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-50.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-50@2x.png b/res/icon/ios/icon-50@2x.png[m[m[m
+[32m+[m[32m[32m+[m[32m[1mnew file mode 100644[m[m[m
+[32m+[m[32m[32m+[m[32m[1mindex 0000000..0d5f1da[m[m[m
+[32m+[m[32m[32m+[m[32mBinary files /dev/null and b/res/icon/ios/icon-50@2x.png differ[m[m
+[32m+[m[32m[32m+[m[32m[1mdiff --git a/res/icon/ios/icon-50x50@1x.png b/res/icon/ios/icon-50x50@1x.png[m[m[m
+[32m+[m[32m[3[m
+\ No newline at end of file[m
