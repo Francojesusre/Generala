@@ -132,11 +132,11 @@ $$(document).on('deviceready', function () {
   console.log("Device is ready!");
 
   $$('#ini').on('click', function () {
-    if(($$('#j1').val()=='') || ($$('#j2').val()=='')){
+    if (($$('#j1').val() == '') || ($$('#j2').val() == '')) {
       app.dialog.alert('Ingrese nombre de los equipos');
-    }else{
+    } else {
       $$('#ini').attr('href', '/anotador/');
-      j1 = $$('#j1').val(); 
+      j1 = $$('#j1').val();
       j2 = $$('#j2').val();
     }
   })
@@ -168,17 +168,17 @@ $$(document).on('page:init', '.page[data-name="anotador"]', function (e) {
     ac2.open();
   });
 
-  $$('#limpiar').on('click', function(){
+  $$('#limpiar').on('click', function () {
     limpia();
   });
 
-  
-// ver restart
-  $$('#volverinicio').on('click', function(){
-    limpia();
+
+  $$('#volverinicio').on('click', function () {
     $$('#volverinicio').attr('href', '/');
-    $$('#j1').text(' '); 
+    $$('#j1').text(' ');
     $$('#j2').text(' ');
+    limpia();
+    desbloquea();
   })
 })
 
@@ -189,13 +189,13 @@ function tocar(index) {
   iden = idTocado;
   alert(iden + " / " + index);
   aux = calcula(idTocado, index);
-  if(index=='servido'||(index=='noservido')){
+  if (index == 'servido' || (index == 'noservido')) {
     index = 1;
   }
   aux = aux * index;
   $$('#' + iden).text(aux); //cambiar valor final
   total();
-  $$('#'+ iden).attr("disabled", true);
+  $$('#' + iden).off('click');
 }
 
 function total() {
@@ -223,14 +223,33 @@ function total() {
 
 function limpia() {
   var i;
-  for (i = 0; i > 12; i++) {
+  for (i = 0; i < 12; i++) {
     $$('#j1_' + i).text('-');
     $$('#j2_' + i).text('-');
   }
   $$('#tj1').text(0);
   $$('#tj2').text(0);
+  desbloquea();
 }
 
+function desbloquea() {
+  var i;
+  $$('.ac-1').on('click', function () {
+    idTocado = this.id;
+    ac1.open();
+  });
+
+  $$('.ac-2').on('click', function () {
+    idTocado = this.id;
+    ac2.open();
+  });
+  /*
+  for (i = 0; i < 12; i++) {
+    $$('#j1_' + i).on('click');
+    $$('#j2_' + i).on('click');
+  }
+  */
+}
 
 
 function calcula(id, ref) {
@@ -290,7 +309,7 @@ function calcula(id, ref) {
         a = 60;
       }
       break
-    
+
       //jugador 2  
     case 'j2_1':
       a = 1;
