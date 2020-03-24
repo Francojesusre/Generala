@@ -149,6 +149,18 @@ $$(document).on('page:init', function (e) {
   // Do something here when page loaded and initialized
   console.log(e);
 })
+$$(document).on('page:init', '.page[data-name="home"]', function (e) {
+  $$('#ini').on('click', function () {
+    if (($$('#j1').val() == '') || ($$('#j2').val() == '')) {
+      app.dialog.alert('Ingrese nombre de los equipos');
+    } else {
+      $$('#ini').attr('href', '/anotador/');
+      j1 = $$('#j1').val();
+      j2 = $$('#j2').val();
+    }
+  })
+
+});
 
 // Option 2. Using live 'page:init' event handlers for each page
 $$(document).on('page:init', '.page[data-name="anotador"]', function (e) {
@@ -187,7 +199,6 @@ $$(document).on('page:init', '.page[data-name="anotador"]', function (e) {
 function tocar(index) {
   var aux;
   iden = idTocado;
-  alert(iden + " / " + index);
   aux = calcula(idTocado, index);
   if (index == 'servido' || (index == 'noservido')) {
     index = 1;
@@ -243,12 +254,7 @@ function desbloquea() {
     idTocado = this.id;
     ac2.open();
   });
-  /*
-  for (i = 0; i < 12; i++) {
-    $$('#j1_' + i).on('click');
-    $$('#j2_' + i).on('click');
-  }
-  */
+  
 }
 
 
